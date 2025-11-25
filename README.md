@@ -1,4 +1,4 @@
-📚 Projeto de Aprendizado
+📚 Projetos de Aprendizado
 
 Este repositório foi criado com o objetivo de estudar, praticar e aprimorar habilidades de programação.
 O foco principal deste projeto não é entregar uma solução final perfeita, mas sim experimentar conceitos, testar ideias e evoluir com a prática.
