@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro DOM</title>
+    <style>
+    .c2{
+    background-color: blue;
+    color: white;
+    font: normal 18pt Arial;
+    }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div class="c2">Clique em mim</div>
+<!-- Script SEMPRE no final do body -->
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        document.write('Está escrito assim: ' + p1.innerHTML)
+        
+        var d = document.getElementsByClassName('.c2')
+        d.innerText = 'Eu amo você...'
+
+        var d = document.querySelector('.c2')
+        d.innerHTML = 'I Love You'
+    </script>
+</body>
+</html>

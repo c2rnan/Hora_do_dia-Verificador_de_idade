@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Imigrantes</title>
+</head>
+<body>
+    <h1>Controle de Imigrantes</h1>
+    Digite seu pais de origem: <input type="text" name="tpais" id="tpais">
+    <input type="button" value="Consultar" onclick="Consultar()">
+    <div id="origem"></div>
+</body>
+<script>
+    function Consultar() {
+        var tpais = document.querySelector('input#tpais')
+        var origem = document.querySelector('div#origem')
+        var pais = String(tpais.value)
+        origem.innerHTML = '<p>Seu pais é <strong>' + pais + '</strong></p>'
+        if (pais == 'Brasil') {
+            origem.innerHTML += '<p> Você é <strong>Brasileiro </strong></p'
+        } else {
+            origem.innerHTML +='<p> Você é <strong>Gringo </strong></p'
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,33 @@
+Somar {
+    5 + 2 = 7
+}
+Dimunuir {
+    5 - 2 = 3
+}
+Mulriplicar {
+    5 * 2 = 10
+}
+Divisão {
+    5 / 2 = 2.5
+}
+Divisão Inteira {
+    5 % 2 = 1
+}
+Aoquadrado {
+    5 ** 2 = 25        
+}
+
+Ordem de Precedência {
+    ¹  () ** * / % = Arítmetricos
+    ²   > < >= = Relâcionais
+    ³   !  && // = Lógico
+    Ternário {
+        teste ? true : false~
+        ex: média > 7?'Aprovado' : 'Reprovado'
+    }
+}
+
+Diferente {
+    !=
+}
+
